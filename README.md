@@ -9,7 +9,7 @@
 | 路径 | 内容 |
 | --- | --- |
 | `index.html` | 产品首页 |
-| `support/index.html` | 技术支持与常见问题 |
+| `support/index.html` | 开发者联系方式 |
 | `privacy/index.html` | 隐私政策 |
 | `styles.css` | 全站样式和响应式布局 |
 | `site.js` | 中英文切换 |
