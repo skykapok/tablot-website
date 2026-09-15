@@ -19,8 +19,8 @@ function setLanguage(language) {
   });
   if (root.dataset.page === "home") {
     document.querySelector('meta[name="description"]').content = locale === "zh"
-      ? "没有广告，没有杂七杂八的功能。拼图桌让你一次选好照片，在同一张桌上拼好一整组。"
-      : "No ads. No clutter. Pick your photos once and make a whole set of collages on one desk.";
+      ? "我喜欢摄影，也总要在发照片前拼图。拼图桌让你一次选好所有照片，在一张小桌上拖拽拼接，没有花里胡哨的模板，没有广告，完全免费。"
+      : "I love photography, and I make collages before sharing photos. Collage Desk lets you choose all your photos once and drag them together on one little desk. No flashy templates, no ads, and completely free.";
   }
   try { localStorage.setItem("collage-desk-language", locale); } catch (_) {}
 }

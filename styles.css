@@ -30,7 +30,6 @@ html[data-locale="en"] [data-copy="en"] { display: revert; }
 .eyebrow { margin: 0 0 24px; color: var(--muted); font-size: 14px; letter-spacing: .06em; }
 h1 { margin: 0; font-size: clamp(40px, 4.3vw, 62px); font-weight: 700; line-height: 1.22; letter-spacing: -.045em; }
 .lead { margin: 28px 0 0; font-size: 18px; line-height: 1.8; }
-.hero-detail { max-width: 390px; margin: 12px 0 0; color: var(--muted); font-size: 16px; line-height: 1.75; }
 .availability { margin: 34px 0 0; color: var(--muted); font-size: 14px; }
 .screenshots { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 22px; min-width: 0; padding: 8px; }
 .screen { display: block; width: 100%; height: auto; border: 1px solid rgba(23,37,56,.1); border-radius: 24px; box-shadow: 0 18px 38px -16px rgba(23,37,56,.24); }
@@ -50,7 +49,6 @@ h1 { margin: 0; font-size: clamp(40px, 4.3vw, 62px); font-weight: 700; line-heig
   .hero { grid-template-columns: 1fr; gap: 40px; padding-top: 40px; }
   .hero-copy { text-align: center; }
   h1 { font-size: clamp(40px, 7vw, 62px); }
-  .hero-detail { margin-inline: auto; }
   .screenshots { width: min(560px, 100%); margin-inline: auto; }
 }
 @media (max-width: 560px) {
@@ -60,7 +58,6 @@ h1 { margin: 0; font-size: clamp(40px, 4.3vw, 62px); font-weight: 700; line-heig
   .nav { gap: 14px; margin-left: auto; }
   .hero { padding: 38px 0 48px; gap: 32px; }
   .lead { font-size: 16px; margin-top: 24px; }
-  .hero-detail { max-width: 320px; }
   .screenshots { gap: 12px; padding: 0; }
   .screen { border-radius: 16px; }
   .screen-snap { margin-top: 40px; }
