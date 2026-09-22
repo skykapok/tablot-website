@@ -13,7 +13,7 @@
 | `privacy/index.html` | 隐私政策 |
 | `styles.css` | 全站样式和响应式布局 |
 | `site.js` | 中英文切换 |
-| `assets/` | 官方图标与实机截图（PNG / WebP） |
+| `assets/` | 应用图标、实机截图与下载二维码（PNG / WebP） |
 | `vercel.json` | Vercel 路由与响应头配置 |
 
 ## 本地开发
